@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:onClick="first"
+        android:text="בחירת צבע לרקע" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_weight="10"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:onClick="secend"
+        android:layout_weight="10"
+        android:text="בחירת שילוב צבעים" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_weight="10"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:onClick="three"
+        android:text="איפוס רקע" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_weight="10"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:onClick="four"
+        android:text="הודעה לטוסט" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_weight="20"/>
+
+</LinearLayout>
